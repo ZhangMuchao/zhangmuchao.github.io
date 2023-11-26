@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Muchao"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Muchao Zhang"
 description              : &description "personal description"
 url                      : https://zhangmuchao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            :  "https://www.it.pt/Members/Index/40316"
+  email            :  "muchaozhang98@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Muchao-Zhang"
   uri              :
   bitbucket        :
