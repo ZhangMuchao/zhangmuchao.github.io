@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/ZhangMuchao"
+  github           : "ZhangMuchao"
   google_plus      :
   keybase          :
   instagram        :
@@ -106,7 +106,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-0241-2776"
   pinterest        :
   soundcloud       :
-  stackoverflow    : https://www.it.pt/Members/Index/40316
+  stackoverflow    : #https://www.it.pt/Members/Index/40316
   steam            :
   tumblr           :
   twitter          : #"replacethistwitterhandle"
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  it		   : "https://www.it.pt/Members/Index/40316"
 
 
 # Reading Files
