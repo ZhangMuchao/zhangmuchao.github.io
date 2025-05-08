@@ -1,0 +1,23 @@
+# 默认作者配置（所有作者共享的默认值）
+default: &default
+  name: "Muchao"          # 必填
+  avatar: /assets/images/wallhaven-nkjxj1.png  # 建议尺寸 120x120px
+  links:
+    - { name: "github", url: "https://zhangmuchao.github.io/" }
+    - { name: "email", url: "mailto:muchaozhang98@gmail.com" }
+
+# 多作者示例
+john_doe:                    # 作者ID（用于Front Matter引用）
+  <<: *default               # 继承默认配置
+  name: "John Doe"           # 覆盖默认名称
+  bio: "全栈开发者 | 开源爱好者"
+  avatar: /assets/img/john.jpg
+  links:
+    - { name: "website", url: "https://john.example.com" }  # 自定义链接
+
+jane_smith:
+  <<: *default
+  name: "Jane Smith"
+  bio: "数据科学家 | 机器学习专家"
+  avatar: /assets/img/jane.png
+  twitter: janesmith        # 直接指定Twitter句柄（替代links中的URL）
