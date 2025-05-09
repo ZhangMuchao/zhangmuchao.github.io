@@ -1,7 +1,7 @@
 ---
 title: Latex Equations and Syntax
 date: 2025-05-09 14:05:02
-categories: [Skills]
+categories: [Tools and Skills, Skills]
 tags: [latex]     # TAG names should always be lowercase
 description: Equations for LATEX.
 toc: true
