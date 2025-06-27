@@ -19,6 +19,7 @@ E[V_b] &= \frac{1}{N}E\left[\sum_{t=1}^{N} (x(t)-\bar{x})^2\right] \\
        &= \left( \frac{N-1}{N} \right) \sigma^2
 \end{align}
 ```
+Result
 
 $$
 \begin{align}
