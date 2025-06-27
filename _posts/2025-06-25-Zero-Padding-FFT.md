@@ -37,7 +37,7 @@ Zero-padding cannot overcome the limitations imposed by a short time window.
 It's important to understand that all the additional points are derived through mathematical interpolation — no new data is being introduced.  
 
 ## Example
-### Set Up Sampling Parameters and Frequencies  
+### Set Up Sampling Parameter and Frequencies  
 ```c
 fs = 1000;          % Sampling rate (samples per second, or Hz)
 f1 = 50; f2 = 52;   % Two sine wave frequencies close to each other
