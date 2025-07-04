@@ -66,9 +66,7 @@ $$
 
 <font style="color:black;">二是缩放，由上式中的</font>s控制<font style="color:black;">，变换后的函数称为小波函数；</font>
 
-![](https://cdn.nlark.com/yuque/0/2021/png/2348280/1619962160022-4aea7756-ff59-459b-9ba7-6d1d93f182e3.png)
-
-<font style="color:#121212;">变换后的函数 称为小波函数</font><font style="color:#121212;">;</font>
+![](../assets/images/20250704011_sfft8.png)
 
 <font style="color:black;">中间的图，s较小，相当于挤压，右侧的图，s较大，相当于拉伸。中间的图，s较小，相当于挤压，频率提高了；右侧的图，s较大，相当于拉伸，频率降低了。缩放就相当于改变频率。s越大，频率f越低，s, $f$ 是倒数关系。中间的图，s较小，相当于挤压，频率提高了，窗长变小了；右侧的图，s较大，相当于拉伸，频率降低了，窗长变大了。</font><font style="color:#121212;">这就可以实现我们需要的</font>**<font style="color:#121212;">“低频，宽窗，差的时间分辨率，好的频域分辨率；高频，窄窗，好的时间分辨率，差的频域分辨率”。</font>**
 
