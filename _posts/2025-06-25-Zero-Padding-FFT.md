@@ -2,7 +2,7 @@
 title: Zero padding FFT  
 date: 2025-06-25 19:11:52  
 categories: [Signal Processing, Frequency Domain]  
-tags: [matlab, feature extraction]     # TAG names should always be lowercase  
+tags: [matlab, feature extraction, fft]     # TAG names should always be lowercase  
 description: Fast Fourier Transform (FFT) is an essential too for analyzing a signal's frequency content. One common operation before applying FFT is zero-padding, appending zeros to the end of a signal to increase the total number of samples used in the transform.  
 toc: true  
 math: true

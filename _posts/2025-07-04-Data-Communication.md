@@ -7,7 +7,7 @@ description: 本文介绍了离散时间信号的基本统计特征提取方法�
 toc: true
 math: true
 ---
-<img src="../assets/images/20250704001_data_communication.png" width = 60%>
+![](../assets/images/20250704001_data_communication.png)
 
 #### 1、并行传输
 **概念**: 将数据以成组的方式在两条以上的并行信道上同时传输
@@ -148,7 +148,7 @@ CAN（Controller Area Network）即控制器局域网，是一种能够实现分
 
 **比较：**
 
-| **CAN总线与RS485的比较</font>** | | |
+| **CAN总线与RS485的比较** | | |
 | --- | --- | --- |
 | <font style="color:rgb(102, 102, 102);">项目</font> | <font style="color:rgb(102, 102, 102);">CAN总线</font> | <font style="color:rgb(102, 102, 102);">RS485</font> |
 | <font style="color:rgb(102, 102, 102);">速度与距离</font> | <font style="color:rgb(102, 102, 102);">1Mbps下不超过40m</font><font style="color:rgb(102, 102, 102);">5Kbps下不超过10Km</font> | <font style="color:rgb(102, 102, 102);">1Mbps下不超过100m</font><font style="color:rgb(102, 102, 102);">最低速率下不超过1.2Km</font> |
