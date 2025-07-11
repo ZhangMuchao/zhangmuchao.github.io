@@ -45,10 +45,22 @@ Method/Steps:
 
 #### Materials
 
-steel: $ T-mm-s-Mpa $
+##### steel
+> $ T-mm-s-Mpa $
 
-Denisity: $ 7.85 g/cm^3 = 7850 kg/m^3 = 7.85 \times 10^{-9} T/mm^3 $ Abaqus setting: $ 7.85 \times 10^{-9} $
+| Properties      | Value                                                      | Abaqus                  |
+|-----------------|------------------------------------------------------------|-------------------------|
+| Denisity        | $ 7.85 g/cm^3 = 7850 kg/m^3 = 7.85 \times 10^{-9} T/mm^3 $ | $ 7.85 \times 10^{-9} $ |
+| Young's modulus | $ 210 GPa = 210 000 MPa $                                  | $  210 000 $            |
+| Poisson Ratio   | 0.3                                                        | 0.3                     |
 
-Young's modulus: $ 210 GPa = 210 000 MPa $ Abaqus setting: $  210 000 $
 
-Poisson Ratio: 0.3
+##### aluminum
+> $ T-mm-s-Mpa $
+
+| Properties      | Value                                                      | Abaqus                  |
+|-----------------|------------------------------------------------------------|-------------------------|
+| Denisity        | $ 2.7 g/cm^3 = 2700 kg/m^3 = 2.7 \times 10^{-9} T/mm^3 $   | $ 2.7 \times 10^{-9} $ |
+| Young's modulus | $ 70 GPa = 70 000 MPa $                                    | $  70 000 $            |
+| Poisson Ratio   | 0.33                                                       | 0.33                     |
+

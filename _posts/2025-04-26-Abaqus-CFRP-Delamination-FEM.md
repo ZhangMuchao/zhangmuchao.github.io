@@ -1,5 +1,5 @@
 ---
-title: Abaqus - Basic
+title: Abaqus - CFRP Delamination
 date: 2025-04-26 10:57:00
 categories: [Software, Abaqus]
 tags: [skills, cfrp, delamination]     # TAG names should always be lowercase
