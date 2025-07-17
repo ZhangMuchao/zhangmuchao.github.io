@@ -70,7 +70,7 @@ Ref:
 
 [[1] Design of fiber-reinforced composite pressure vessels under various loading conditions]( https://www.sciencedirect.com/science/article/pii/S0263822302000375?via%3Dihub )
 
-[[2] Micromechanics Models for Viscoelastic Plain-Weave Composite Tape Springs](../assets/pdf/Micromechanics_Models_for_Viscoelastic_Plain_Weave_Composite_Tape_Springs.pdf)
+[2] Micromechanics Models for Viscoelastic Plain-Weave Composite Tape Springs
 
 | Properties                                | Value |
 |-------------------------------------------|-------|
