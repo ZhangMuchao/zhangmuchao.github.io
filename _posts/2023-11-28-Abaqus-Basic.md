@@ -44,9 +44,9 @@ Method/Steps:
     - "Common Plot Options" --> "Basic" --> "Visible Edges" --> Select "Free edges" or "No edges".
 
 #### Materials
-
-##### steel
 > $ T-mm-s-Mpa $
+##### steel
+
 
 | Properties      | Value                                                      | Abaqus                  |
 |-----------------|------------------------------------------------------------|-------------------------|
@@ -56,13 +56,48 @@ Method/Steps:
 
 
 ##### aluminum
-> $ T-mm-s-Mpa $
 
 | Properties      | Value                                                      | Abaqus                  |
 |-----------------|------------------------------------------------------------|-------------------------|
 | Denisity        | $ 2.7 g/cm^3 = 2700 kg/m^3 = 2.7 \times 10^{-9} T/mm^3 $   | $ 2.7 \times 10^{-9} $ |
 | Young's modulus | $ 70 GPa = 70 000 MPa $                                    | $  70 000 $            |
 | Poisson Ratio   | 0.33                                                       | 0.33                     |
+
+##### T300
+unidirectional laminate [单向层压板]
+
+Ref: 
+
+[[1] Design of fiber-reinforced composite pressure vessels under various loading conditions]( https://www.sciencedirect.com/science/article/pii/S0263822302000375?via%3Dihub )
+
+[[2] Micromechanics Models for Viscoelastic Plain-Weave Composite Tape Springs](../assets/pdf/10.2514@1.j055041.pdf)
+
+| Properties                                | Value |
+|-------------------------------------------|-------|
+| Elastic modulus in fiber direction (GPa)  | 181   |
+| Elastic modulus in matrix direction (GPa) | 10.3  |
+| In plane shear modulus (GPa)              | 7.17  |
+| Major Poisson's ratio                     | 0.28  |
+
+(Self-defined)
+
+| Properties   | Value           | Abaqus |
+|--------------|-----------------|--------|
+| Mass density | 1600 $ kg/m^3 $ | 1.6e-9 |
+| $ E_1 $      | 181 $GPa$       | 181000 |
+| $ E_2 $      | 10.3 $GPa$      | 10300  |
+| $ E_3 $      | 10.3 $GPa$      | 10300  |
+| $ G_12 $     | 7.17 $GPa$      | 7170   |
+| $ G_13 $     | 7.17 $GPa$      | 7170   |
+| $ G_23 $     | 3.4 $GPa$       | 3400   |
+| $ \nu_12 $   | 0.28            | 0.28   |
+| $ \nu_13 $   | 0.28            | 0.28   |
+| $ \nu_23 $   | 0.28            | 0.28   |
+
+Dispersion curves @ Dispersion Calculator 
+![](../assets/images/20250717002_DispersionCurve_PhaseVelocity.png)
+
+![](../assets/images/20250717001_DispersionCurve_wavelength.png)
 
 #### Export
 
