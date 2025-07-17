@@ -34,6 +34,7 @@ Nodal spacing in the model far exceeded the nodal spacing requirement of 10 node
 Description: A quasi-isotropic laminate plate with a dimension of 450 mm × 450 mm × 1.8 mm is considered. The origin of the coordinate system is set at the center of the bottom of the plate. This 4-ply laminate has a stacking sequence [0/45/-45/90]. A rectangular shape representative delamination with a dimension of 20 mm × 20 mm is modeled at the center of the composite plate between the first layer and the adjacent second layer. The position of the PZT is located at (-125 mm, 125 mm). The excitation signal used in the numerical study is a 160-kHz narrow-band five-cycle sinusoidal tone burst modulated by a Hanning window. The excitation signal is introduced to the FE model through out-of-plane forces acting on the central FE nodes corresponding to the positions of the actuators.
 
 ### 模型创建
+核心思想是创建一层cohesive layer，然后在装配体中merge mesh，选择boundary only，然后删除cohesive layer，这样就认为人为创造一个分层区域。
 （1）Create Part: CFRP共有四层，总厚度为1.8 mm，单层厚度为0.45 mm.
 
 ![](../assets/images/20250705002_cfrp_de1.png)

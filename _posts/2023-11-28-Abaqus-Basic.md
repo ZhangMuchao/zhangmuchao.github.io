@@ -64,3 +64,6 @@ Method/Steps:
 | Young's modulus | $ 70 GPa = 70 000 MPa $                                    | $  70 000 $            |
 | Poisson Ratio   | 0.33                                                       | 0.33                     |
 
+#### Export
+
+注意导出out-of-plane的振动数据时，其方向不一定是z轴，特别是从外部文件导入的数据。
