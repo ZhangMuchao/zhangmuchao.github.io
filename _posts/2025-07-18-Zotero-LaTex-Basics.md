@@ -36,7 +36,7 @@ math: true
 
 ### Install Texlive and Texstudio
 
-[texlive](http://www.tug.org/texlive/)
+[texlive](https://www.tug.org/texlive/)
 
 [texstudio](https://www.texstudio.org/)
 
