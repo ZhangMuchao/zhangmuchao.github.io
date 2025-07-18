@@ -1,5 +1,5 @@
 ---
-title: LaTex: Texlive + Texstudio + Zotero + Onedrive
+title: "LaTex: Texlive + Texstudio + Zotero + Onedrive"
 date: 2025-07-18 12:34:00
 categories: [Software, LaTex]
 tags: [skills, zotero, onedrive]     # TAG names should always be lowercase
