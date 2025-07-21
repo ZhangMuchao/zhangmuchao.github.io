@@ -92,7 +92,7 @@ Ref:
 | $ G_23 $     | 3.4 $GPa$       | 3400   |
 | $ \nu_12 $   | 0.28            | 0.28   |
 | $ \nu_13 $   | 0.28            | 0.28   |
-| $ \nu_23 $   | 0.28            | 0.28   |
+| $ \nu_23 $   | 0.4             | 0.4    |
 
 Dispersion curves @ Dispersion Calculator 
 ![](../assets/images/20250717002_DispersionCurve_PhaseVelocity.png)
