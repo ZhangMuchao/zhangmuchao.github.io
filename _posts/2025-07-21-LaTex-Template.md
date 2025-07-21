@@ -1,5 +1,5 @@
 ---
-title: Latex Template IST-UL
+title: "Latex Template IST-UL"
 date: 2025-07-21 15:49:05
 categories: [Tools and Skills, Skills]
 tags: [latex, thesis, template]     # TAG names should always be lowercase
