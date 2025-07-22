@@ -3,7 +3,7 @@ title: "Latex Template IST-UL"
 date: 2025-07-21 15:49:05
 categories: [Tools and Skills, Skills]
 tags: [latex, thesis, template]     # TAG names should always be lowercase
-description: [Instituto Superior Técnico, ULisboa] Thesis template? Master? PhD?.
+description: Instituto Superior Técnico, ULisboa, Thesis template, Master, PhD.
 toc: true
 math: true
 ---
