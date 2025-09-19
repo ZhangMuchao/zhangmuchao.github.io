@@ -1,9 +1,9 @@
 ---
-title: "LaTex: Texlive + Texstudio + Zotero + Onedrive"
+title: "Physics-Ultrasonic Guided Waves"
 date: 2025-07-18 12:34:00
-categories: [Software, LaTex]
-tags: [skills, zotero, onedrive]     # TAG names should always be lowercase
-description: Install and configure Zotero for reference management, TeX Live and TeXstudio for LaTeX writing, and OneDrive for online synchronization of Zotero.
+categories: [Theory, Physics]
+tags: [wave, euqation]     # TAG names should always be lowercase
+description: Basic expressions.
 toc: true
 math: true
 ---
