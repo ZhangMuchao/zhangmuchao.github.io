@@ -64,6 +64,6 @@ the normalized vectors from all blocks across the entire image are concatenated 
 The HoG vector can be used for following classification and detection tasks.
 
 ## References
-[1] N. Dalal and B. Triggs, "Histograms of oriented gradients for human detection," 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05), San Diego, CA, USA, 2005, pp. 886-893 vol. 1, doi: 10.1109/CVPR.2005.177.
+1. [Histograms of oriented gradients for human detection](10.1109/CVPR.2005.177).
 
-[2] [HOG方向梯度直方图算法](https://zhuanlan.zhihu.com/p/445740963).
+2. [HOG方向梯度直方图算法](https://zhuanlan.zhihu.com/p/445740963).
