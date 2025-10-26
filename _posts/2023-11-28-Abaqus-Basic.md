@@ -28,7 +28,11 @@ Abaqus doesn't have a fixed unit system. So we need to choose a matching set of 
 
 
 #### Processing
+{% if jekyll.environment == "production" %}
+![]({{ '/assets/images/20250705001_abaqus1.jpeg' | relative_url }})
+{% else %}
 ![](../assets/images/20250705001_abaqus1.jpeg)
+{% endif %}
 
 #### Mesh
 For Guided wave (Lamb wave): The largest mesh element size was smaller **<font style="color:#DF2A3F;">than 1/10</font>** of the shortest incident wavelength.
