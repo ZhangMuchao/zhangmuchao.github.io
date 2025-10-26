@@ -37,36 +37,36 @@ Description: A quasi-isotropic laminate plate with a dimension of 450 mm × 450 
 核心思想是创建一层cohesive layer，然后在装配体中merge mesh，选择boundary only，然后删除cohesive layer，这样就认为人为创造一个分层区域。
 （1）Create Part: CFRP共有四层，总厚度为1.8 mm，单层厚度为0.45 mm.
 
-![](../assets/images/20250705002_cfrp_de1.png)
+![](/assets/images/20250705002_cfrp_de1.png)
 
 （2）Partition Face面拆分，为传感器创建位置。创建线条1：（-225，125）-（225，125），线条2：（-125，-225）-（-125，225），两条线的交点创建为“传感器”集合。
 
-![](../assets/images/20250705002_cfrp_de2.png)
-![](../assets/images/20250705002_cfrp_de3.png)
-![](../assets/images/20250705002_cfrp_de4.png)
-![](../assets/images/20250705002_cfrp_de5.png)
+![](/assets/images/20250705002_cfrp_de2.png)
+![](/assets/images/20250705002_cfrp_de3.png)
+![](/assets/images/20250705002_cfrp_de4.png)
+![](/assets/images/20250705002_cfrp_de5.png)
 
 选择对应的点，点击完成即可。
 
 （3）Partition Cell：将模型沿厚度方向拆分，方便创建网格，此处拆分为1/2。拆分为其他值时，可以使用拆分面获得相应的驱动点之后再进行部件拆分，此处为1/2，可以直接利用线段中点。点击“Partition Cell”，选择“Point & Normal”，之后鼠标选择厚度方向的中点，选择正确的切线方向，完成厚度方向拆分。
 
-![](../assets/images/20250705002_cfrp_de6.png)
+![](/assets/images/20250705002_cfrp_de6.png)
 
 ### 材料属性定义（Module：Property）
 
 （1）Create Material：创建材料，定义密度，弹性工程常数。
 
-![](../assets/images/20250705002_cfrp_de7.png)
-![](../assets/images/20250705002_cfrp_de8.png)
+![](/assets/images/20250705002_cfrp_de7.png)
+![](/assets/images/20250705002_cfrp_de8.png)
 
 （2）创建截面
 
-![](../assets/images/20250705002_cfrp_de9.png)
+![](/assets/images/20250705002_cfrp_de9.png)
 
 （3）分配截面属性（为了便于扩展，将厚度方向的每一层都创建为集合，方便后续分配材料方向等。），材料选择之前创建的材料。
 
-![](../assets/images/20250705002_cfrp_de10.png)
-![](../assets/images/20250705002_cfrp_de11.png)
+![](/assets/images/20250705002_cfrp_de10.png)
+![](/assets/images/20250705002_cfrp_de11.png)
 
 ### 网格定义，缺陷单元定义
 （1）网格全局尺寸定义为0. 5mm，划分网格，共1620000单元。
@@ -75,65 +75,65 @@ Description: A quasi-isotropic laminate plate with a dimension of 450 mm × 450 
 
 首先创建基准（基准定义到缺陷区域的中心），方便定义缺陷时进行选择。
 
-![](../assets/images/20250705002_cfrp_de12.png)
-![](../assets/images/20250705002_cfrp_de13.png)
-![](../assets/images/20250705002_cfrp_de14.png)
+![](/assets/images/20250705002_cfrp_de12.png)
+![](/assets/images/20250705002_cfrp_de13.png)
+![](/assets/images/20250705002_cfrp_de14.png)
 
 创建缺陷对应的单元集合，工具-集-管理器，创建
 
-![](../assets/images/20250705002_cfrp_de15.png)
+![](/assets/images/20250705002_cfrp_de15.png)
 
 根据网格单元大小和缺陷尺寸大小，计算缺陷单元相对于基准的分布之后选择对应的单元。
 
-![](../assets/images/20250705002_cfrp_de16.png)
+![](/assets/images/20250705002_cfrp_de16.png)
 
 编辑网格
 
-![](../assets/images/20250705002_cfrp_de17.png)
-![](../assets/images/20250705002_cfrp_de18.png)
-![](../assets/images/20250705002_cfrp_de19.png)
+![](/assets/images/20250705002_cfrp_de17.png)
+![](/assets/images/20250705002_cfrp_de18.png)
+![](/assets/images/20250705002_cfrp_de19.png)
 
 ### 复制部件，重新定义集合，分配截面，注意层叠顺序
 （1）复制部件1，作为第二层
 
-![](../assets/images/20250705002_cfrp_de20.png)
-![](../assets/images/20250705002_cfrp_de21.png)
+![](/assets/images/20250705002_cfrp_de20.png)
+![](/assets/images/20250705002_cfrp_de21.png)
 
 （2）删除复制部件的集合，截面分配，重新定义集合和截面分配.
 
-![](../assets/images/20250705002_cfrp_de22.png)
-![](../assets/images/20250705002_cfrp_de23.png)
-![](../assets/images/20250705002_cfrp_de24.png)
+![](/assets/images/20250705002_cfrp_de22.png)
+![](/assets/images/20250705002_cfrp_de23.png)
+![](/assets/images/20250705002_cfrp_de24.png)
 
 
 （3）创建第三层和第四层，无缺陷的部件层。沿厚度方向分割，分配截面，网格划分。
 ### 创建实例（Assembly）
 （1）创建实例，选择自动偏移
 
-![](../assets/images/20250705002_cfrp_de25.png)
+![](/assets/images/20250705002_cfrp_de25.png)
 
 （2）部件旋转，使含有缺陷的两层面对面；
 （3）部件偏移，合成整个的碳纤维板；
 ### 合并实体
 （1）合并实体
-![](../assets/images/20250705002_cfrp_de26.png)
-![](../assets/images/20250705002_cfrp_de27.png)
+![](/assets/images/20250705002_cfrp_de26.png)
+![](/assets/images/20250705002_cfrp_de27.png)
 
 选择所有实例，点击确定。
 
-![](../assets/images/20250705002_cfrp_de28.png)
+![](/assets/images/20250705002_cfrp_de28.png)
 
 ### 创建一个基准，方便后续定义材料旋转方向。
 ### 网格-编辑网格-删除单元
 
-![](../assets/images/20250705002_cfrp_de29.png)
-![](../assets/images/20250705002_cfrp_de30.png)
+![](/assets/images/20250705002_cfrp_de29.png)
+![](/assets/images/20250705002_cfrp_de30.png)
 
 ### 材料方向分配/编辑
 
-![](../assets/images/20250705002_cfrp_de31.png)
-![](../assets/images/20250705002_cfrp_de32.png)
-![](../assets/images/20250705002_cfrp_de33.png)
+![](/assets/images/20250705002_cfrp_de31.png)
+![](/assets/images/20250705002_cfrp_de32.png)
+![](/assets/images/20250705002_cfrp_de33.png)
 
 ### Others
 1. 定义激励信号：160kHz汉宁窗5周期调制波形

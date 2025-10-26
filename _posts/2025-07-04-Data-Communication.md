@@ -7,7 +7,7 @@ description: 串行，并行数据通信/传输方式。
 toc: true
 math: true
 ---
-![](../assets/images/20250704001_data_communication.png)
+![](/assets/images/20250704001_data_communication.png)
 
 #### 1、并行传输
 **概念**: 将数据以成组的方式在两条以上的并行信道上同时传输
@@ -65,7 +65,7 @@ math: true
 
 **<u>通讯时序：</u>**
 
-![](../assets/images/20250704002_IIC.png)
+![](/assets/images/20250704002_IIC.png)
 
 IIC通信过程由开始、结束、发送、响应、接收五个部分构成.
 
@@ -82,7 +82,7 @@ IIC通信过程由开始、结束、发送、响应、接收五个部分构成.
 
 串行外围设备接口，是一种高速全双工的通信总线。优点是通讯简单、数据传输速率快、缺点是没有指定的流控制，没有应答机制确认是否接收到数据，所以跟IIC总线协议比较在数据可靠性上有一定的缺陷。
 
-![](../assets/images/20250704003_SPI.png)
+![](/assets/images/20250704003_SPI.png)
 
 **<u><font style="color:rgb(18, 18, 18);">连接线：</font></u>**
 
@@ -96,7 +96,7 @@ IIC通信过程由开始、结束、发送、响应、接收五个部分构成.
 
 **<u>通信时序：</u>**
 
-![](../assets/images/20250704004_SPI2.png)
+![](/assets/images/20250704004_SPI2.png)
 
 <font style="color:rgb(18, 18, 18);">在一个SPI时钟周期内，会完成如下操作：1) 主设备通过MOSI线发送1位数据，从设备通过该线读取这1位数据； 从设备通过MISO线发送1位数据，主设备通过该线读取这1位数据；数据发送和数据采样由上升沿或下降沿控制，由用户选择。</font>
 
@@ -110,7 +110,7 @@ IIC通信过程由开始、结束、发送、响应、接收五个部分构成.
 
 **<u><font style="color:rgb(18, 18, 18);">时序：</font></u>**
 
-![](../assets/images/20250704005_Serial_Uart.jpg)
+![](/assets/images/20250704005_Serial_Uart.jpg)
 
 **<u>电平标准</u>**：
 
@@ -138,13 +138,13 @@ CAN（Controller Area Network）即控制器局域网，是一种能够实现分
 
 **<font style="color:rgb(62, 62, 62);">电平标准：</font>**
 
-![](../assets/images/20250704006_CAN1.png)![](../assets/images/20250704006_CAN2.png)
+![](/assets/images/20250704006_CAN1.png)![](/assets/images/20250704006_CAN2.png)
 
 **连接线：**CANH、CANL
 
 **传输距离：**
 
-![](../assets/images/20250704006_CAN3.png)
+![](/assets/images/20250704006_CAN3.png)
 
 **比较：**
 

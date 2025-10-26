@@ -16,17 +16,17 @@ math: true
 
 去掉File Syncing下的两个对勾。
 
-![File Syncing](../assets/images/20250718001_Zotero.png)
+![File Syncing](assets/images/20250718001_Zotero.png)
 
 #### Base Directory
 
 将存储文件夹改为Onedrive内部文件夹。
 
-![Base Directory](../assets/images/20250718002_Zotero.png)
+![Base Directory](assets/images/20250718002_Zotero.png)
 
 #### File Renaming Rules
 
-![File Renaming Rules](../assets/images/20250718003_Zotero.png)
+![File Renaming Rules](assets/images/20250718003_Zotero.png)
 
 ### Chrome Plugin
 
@@ -52,15 +52,15 @@ Export references as .bib file, enable the keep update button, save this file at
 
 > Export collection
 
-![Export collection](../assets/images/20250718004_Zotero.png)
+![Export collection](assets/images/20250718004_Zotero.png)
 
 > Export options: enable "Keep updated" 
 
-![Export options](../assets/images/20250718005_Zotero.png)
+![Export options](assets/images/20250718005_Zotero.png)
 
 > Manage auto-update
 
-![Manage auto-update](../assets/images/20250718006_Zotero.png)
+![Manage auto-update](assets/images/20250718006_Zotero.png)
 
 ### Cite the reference in texstudio
 
@@ -80,7 +80,7 @@ Here is \cite{barzegarBaselineFreeDamageImaging2023} an example. This is an exam
 \end{document}
 ```
 
-![Example](../assets/images/20250718007_Zotero.png)
+![Example](assets/images/20250718007_Zotero.png)
 
 ## References
 

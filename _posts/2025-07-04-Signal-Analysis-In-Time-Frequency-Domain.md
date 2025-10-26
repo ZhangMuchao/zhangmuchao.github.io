@@ -32,7 +32,7 @@ math: true
 
 **2）理想模拟滤波器**
 
-![](../assets/images/20250704010_filter.png)
+![](/assets/images/20250704010_filter.png)
 
 **3）实际滤波器及其基本参数**
 

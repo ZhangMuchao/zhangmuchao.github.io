@@ -108,7 +108,7 @@ title("Long signal (2s) — Resolution = 0.5 Hz");
 set(gca,"FontSize",15, "FontName","Times New Roman");
 ```
 
-![](../assets/images/20250704007_ZeroPadding.png)
+![](/assets/images/20250704007_ZeroPadding.png)
 
 + The top subplot shows the FFT of the **short signal** — the two sine waves are not clearly separated.
 + The bottom subplot shows the FFT of the **long signal** — the two sine waves appear as two distinct peaks.

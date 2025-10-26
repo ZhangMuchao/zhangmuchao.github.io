@@ -12,19 +12,19 @@ math: true
 #### 基本思想
 将信号划分成许多小的时间间隔，用傅里叶变换分析每一个时间间隔，以便确定该时间间隔存在的频率。我们定义一个中心宽度为width的窗函数窗函数除了中心宽度为width的部分为1外，其它部分都是0，这就相当于提取了原信号在 $ t=t_s $ 处，宽度为width的部分.
 
-![](../assets/images/20250704011_sfft1.png)
+![](/assets/images/20250704011_sfft1.png)
 
-![](../assets/images/20250704011_sfft2.png)
+![](/assets/images/20250704011_sfft2.png)
 
-![](../assets/images/20250704011_sfft3.png)
+![](/assets/images/20250704011_sfft3.png)
 
 <font style="color:black;">选定一个基本的窗函数之后，将窗函数沿时间轴平移得到一组窗函数。平移后的窗函数分别和原信号相乘，其结果就等效于提取了原信号的不同时间段内的信息而屏蔽了窗外的信号。每个段内的信号视为平稳的，对其进行傅里叶变换，从而得到信号的频谱，或者计算幅频特性的平方作为该段信号的功率谱。</font>
 
-![](../assets/images/20250704011_sfft4.png)
+![](/assets/images/20250704011_sfft4.png)
 
 $ X(\omega, t_s) $ 是一个三维函数，有两个自变量 $ \omega,t_s $ 。加窗傅里叶变换提取出来的信息：在原信号 $ t=t_s $ 处，宽度为width的部分所包含的频率信息.
 
-![](../assets/images/20250704011_sfft5.png)
+![](/assets/images/20250704011_sfft5.png)
 
 <font style="color:black;">这里分窗操作使用的函数称为“方窗函数”，这是一种窗函数。还有一些其他的窗函数，比如，汉宁窗、海明窗、高斯窗等。</font>
 
@@ -33,7 +33,7 @@ $ X(\omega, t_s) $ 是一个三维函数，有两个自变量 $ \omega,t_s $ 。
 
 <font style="color:#121212;">测不准原理：</font>$ \Delta t \Delta f >C $,其中 $ \Delta t $ 为信号的时间不确定度，$ \Delta f $ 为<font style="color:black;">频率不确定度。</font><font style="color:#121212;">对于低频信号，为了更好地确定频率，我们希望，时域区间宽一些，即时间不确定度 $ ∆t $ 大一些，根据海森堡测不准原理，频率不确定度 $ ∆f $ 自然小一些；即</font>**<font style="color:#121212;">低频信号，我们希望：宽窗子，低的时域分辨率，高的频域分辨率。</font>**<font style="color:black;">对于高频信号，为了更好地在时域定位，我们希望，时域区间窄一些，即时间不确定度</font><font style="color:#121212;"> $ ∆t $ </font><font style="color:black;">小一些，根据海森堡测不准原理，频率不确定度</font><font style="color:#121212;"> $ ∆f $ </font><font style="color:black;">自然大一些；即高频信号，我们希望：</font>**<font style="color:black;">窄窗子，高的时域分辨率，低的频域分辨率。</font>**
 
-![](../assets/images/20250704011_sfft6.png)
+![](/assets/images/20250704011_sfft6.png)
 
 ### 5.2 连续小波变换
 <font style="color:black;">为了实现动态分辨率，引入基本小波（或称为母小波）</font><font style="color:#121212;">Ψ(t)</font>.<font style="color:#121212;">母小波函数并不是一个特定的函数，而是一种函数的集合，满足了一定条件的函数均可以作为母小波函数。</font>
@@ -66,7 +66,7 @@ $$
 
 <font style="color:black;">二是缩放，由上式中的</font>s控制<font style="color:black;">，变换后的函数称为小波函数；</font>
 
-![](../assets/images/20250704011_sfft8.png)
+![](/assets/images/20250704011_sfft8.png)
 
 <font style="color:black;">中间的图，s较小，相当于挤压，右侧的图，s较大，相当于拉伸。中间的图，s较小，相当于挤压，频率提高了；右侧的图，s较大，相当于拉伸，频率降低了。缩放就相当于改变频率。s越大，频率f越低，s, $f$ 是倒数关系。中间的图，s较小，相当于挤压，频率提高了，窗长变小了；右侧的图，s较大，相当于拉伸，频率降低了，窗长变大了。</font><font style="color:#121212;">这就可以实现我们需要的</font>**<font style="color:#121212;">“低频，宽窗，差的时间分辨率，好的频域分辨率；高频，窄窗，好的时间分辨率，差的频域分辨率”。</font>**
 
@@ -89,7 +89,7 @@ x(t)\Phi(\frac t s -\tau)dt
 $$
 
 #### 傅里叶变换、短时傅里叶变换、小波变换的对比
-![](../assets/images/20250704011_sfft7.png)
+![](/assets/images/20250704011_sfft7.png)
 
 **<font style="color:black;">傅里叶变换</font>**<font style="color:black;">的基函数是分布在</font>(-∞，+∞)<font style="color:black;">的sin和cos，不具有紧支撑性，只能筛选频率，使得FT完全丧失了时间信息，不具有时间分辨率。</font>
 
@@ -104,17 +104,17 @@ $$
 
 <font style="color:#121212;">假设信号中的最高频率为</font><font style="color:#121212;">Fs</font><font style="color:#121212;"> 。那么，高通滤波器的作用就是得到（</font><font style="color:#121212;">Fs/2</font><font style="color:#121212;">，</font><font style="color:#121212;">Fs</font><font style="color:#121212;">）的部分，低通滤波器的作用就是得到（</font><font style="color:#121212;">0</font><font style="color:#121212;">，</font><font style="color:#121212;">Fs/2</font><font style="color:#121212;">）的部分。如下图所示：</font>
 
-![](../assets/images/20250704011_cwt1.png)
+![](/assets/images/20250704011_cwt1.png)
 
 <font style="color:#121212;">我们将这个过程称为一次</font>**<font style="color:#121212;">半子带滤波</font>**<font style="color:#121212;">。</font>
 
 <font style="color:#121212;">我们定义一个N倍下采样过程：</font>**<font style="color:#121212;">将采样点N倍稀释</font>**<font style="color:#121212;">。如下，就是一个2倍下采样过程，将采样点稀释2倍，即：每2个点采样数据点，就去除一个点。N倍上采样过程：</font>**<font style="color:#121212;">将采样点数量增加N倍</font>**<font style="color:#121212;">。一般通过补0，或者插值的方法实现上采样。</font>**<font style="color:black;">我们将一次半子带滤波+一次2倍下采样称为一层小波分解。</font>**
 
-![](../assets/images/20250704011_cwt2.png)
+![](/assets/images/20250704011_cwt2.png)
 
 <font style="color:black;">离散小波变换的快速算法之一通过不断的半子带滤波和下采样，控制不同频率成分的频域分辨率，进而达到动态分辨率。将信号的小波分解的分量进行处理后，一般还要根据需要把信号恢复出来，也就是利用信号的小波分解的系数还原出原始信号，这一过程称为小波重构（Wavelet Reconstruction）或叫做小波合成（Wavelet Synthesis）。这一合成过程的数学运算叫做逆离散小波变换（Inverse Discrete Wavelet Transform， IDWT）</font>
 
-![](../assets/images/20250704011_cwt3.png)
+![](/assets/images/20250704011_cwt3.png)
 
 ### 5.4 小波变换的特点
 •<font style="color:black;">小波变换，既具有频率分析的性质，又能表示发生的时间。有利于分析确定时间发生的现象。（傅里叶变换只具有频率分析的性质）</font>

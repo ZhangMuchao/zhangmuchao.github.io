@@ -99,10 +99,17 @@ Ref:
 | $ \nu_23 $   | 0.4             | 0.4    |
 
 Dispersion curves @ Dispersion Calculator 
+{% if jekyll.environment == "production" %}
+![]({{ '/assets/images/20250717002_DispersionCurve_PhaseVelocity.png' | relative_url }})
+{% else %}
 ![](../assets/images/20250717002_DispersionCurve_PhaseVelocity.png)
+{% endif %}
 
+{% if jekyll.environment == "production" %}
+![]({{ '/assets/images/20250717001_DispersionCurve_wavelength.png' | relative_url }})
+{% else %}
 ![](../assets/images/20250717001_DispersionCurve_wavelength.png)
-
+{% endif %}
 #### Export
 
 注意导出out-of-plane的振动数据时，其方向不一定是z轴，特别是从外部文件导入的数据。

@@ -8,7 +8,7 @@ toc: true
 math: true
 ---
 
-![](../assets/images/20250704008_FCNN1.png)![](../assets/images/20250704008_FCNN2.png)
+![](/assets/images/20250704008_FCNN1.png)![](/assets/images/20250704008_FCNN2.png)
 
 ## FCNN
 
