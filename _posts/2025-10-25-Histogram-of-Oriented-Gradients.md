@@ -56,7 +56,7 @@ The third step is creating the cell histogram. Assuming that the image $A$ has $
 
 **Concatenate 串联** the cells within a specific block is concatenated into a longer vector (e.g., $2\times2$ cells $\times 9$ bins generates a **36 elements vector** )
 
-**Normalize** use the $l_2$-norm strategy: $v = \frac{v}{||v||_2^2 + \xi}$, where $\xi$ is a small constant to prevent division by zero.
+**Normalize** use the $ l_2 $ norm strategy: $v = \frac{v}{||v||_2^2 + \xi}$, where $ \xi $ is a small constant to prevent division by zero.
 
 ### HoG feature vector
 the normalized vectors from all blocks across the entire image are concatenated into a single, long, one-dimensional vector. This final vector is the HoG feature descriptor. (e.g., image $A$ has $64\times128$ pixels, it can be segemented into $8\times16 = 128$ cells (Assuming the cell size is $8\times8$) and therefore $7\times15 = 105$ blocks (assuming the moving step is 1 cell), each block has a **36 elements vector**, forming the HoG vector with $7\times15\times36$ elements.)
