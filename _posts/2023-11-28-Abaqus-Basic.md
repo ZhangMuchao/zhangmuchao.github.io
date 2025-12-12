@@ -67,6 +67,17 @@ Method/Steps:
 | Young's modulus | $ 70 GPa = 70 000 MPa $                                    | $  70 000 $            |
 | Poisson Ratio   | 0.33                                                       | 0.33                     |
 
+##### Adhesive [Araldite 2011]
+Ref: 
+
+[[1] Polar Coordinate for Damage Imaging of Adhesively Bonded Plates Using Ultrasonic Guided Waves and Laser Doppler Vibrometer Measurements](https://ieeexplore.ieee.org/document/10103563)
+
+| Properties      | Value                                                      | Abaqus                  |
+|-----------------|------------------------------------------------------------|-------------------------|
+| Denisity        | $ 1.05 g/cm^3 = 1050 kg/m^3 = 1.05 \times 10^{-9} T/mm^3 $ | $ 2.7 \times 10^{-9} $ |
+| Young's modulus | $ 1.65 GPa = 1650 MPa $                                    | $  1650 $            |
+| Poisson Ratio   | 0.4                                                        | 0.4                    |
+
 ##### T300
 unidirectional laminate [单向层压板]
 
