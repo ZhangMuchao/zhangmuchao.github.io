@@ -24,7 +24,7 @@ order: 4
   - Supervisor: [伍剑波教授](https://msec.scu.edu.cn/info/1121/4394.htm)
 
 - **B.Eng. in Mechanical Engineering**  
-  Sichuan University，Chengdu，China *(2020 – 2023)*   
+  Sichuan University，Chengdu，China *(2016 – 2020)*   
   - Thesis: Passive and Wireless Strain Monitoring using Radio Frequency Identification
   - Supervisor: [伍剑波教授](https://msec.scu.edu.cn/info/1121/4394.htm)
 
