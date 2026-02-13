@@ -32,7 +32,10 @@ workspaceName/
 │   ├── .venv/          # shared virtual environment
 │   ├── mytools/        # shared reusable code
 │   └── setup.py
-│
+├── data/
+│   ├── mat/           # original .mat
+│   ├── npz/           # npz (loaded)
+│   └── cache/         
 ├── project_ideaA/
 ├── project_ideaB/
 └── project_ideaC/
@@ -79,13 +82,43 @@ Package    Version Editable project location
 ---------- ------- -------------------------------
 mytools    0.1.0   E:\PythonProjectLRR_Feb2026\lib
 ```
+#### 6. Index
+```
+"mytools" >> RightClick >> Make Dictionary as >> Source root
+```
 
+### 分段执行pycharm
+```
+#%%
+```
 
-
-
-
-torch gpu version: RTX G5070
+### Specific version "torch" for the PC-Laser
+```
+# torch gpu version: RTX G5070
+# uninstall the previous version
 pip uninstall torch torchvision torchaudio -y
-
+# install the correct version
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
-python中像matlab绘图的那种比较方便的函数如何调用？有哪些库？
+
+# code to check
+import torch
+
+print(torch.cuda.is_available())      # True / False
+print(torch.cuda.device_count())      # GPU#
+print(torch.cuda.get_device_name(0))  # the name of the first device name
+
+print(torch.__version__)
+print(torch.version.cuda)
+print(torch.cuda.get_arch_list())
+
+# The output
+True
+1
+NVIDIA GeForce RTX 5070
+2.11.0.dev20260203+cu128
+12.8
+['sm_75', 'sm_80', 'sm_86', 'sm_90', 'sm_100', 'sm_120']
+```
+### Matlab and Python
+
+#### index and dimensions
