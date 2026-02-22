@@ -9,7 +9,7 @@ order: 4
 
 # Muchao Zhang
 
-<p align="center"> <a href="[https://zhangmuchao.blogspot.com](https://zhangmuchao.blogspot.com)">🌐 Blog</a> | <a href="[https://github.com/ZhangMuchao](https://github.com/ZhangMuchao)">💻 GitHub</a> | <a href="[https://www.it.pt/Members/Index/40316](https://www.it.pt/Members/Index/40316)">🔬 IT Profile</a> | <a href="[https://scholar.google.com/citations?user=xytWH4EAAAAJ&hl=en](https://scholar.google.com/citations?user=xytWH4EAAAAJ&hl=en)">🎓 Google Scholar</a> </p>
+*[Google](https://zhangmuchao.blogspot.com) | [Github](https://github.com/ZhangMuchao) | [IT Profile](https://www.it.pt/Members/Index/40316) | [Google Scholar](https://scholar.google.com/citations?user=xytWH4EAAAAJ&hl=en)  *
 
 ---
 
