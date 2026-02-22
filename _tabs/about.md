@@ -5,30 +5,50 @@ order: 4
 ---
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+> {: .prompt-tip }
 
-# 张目超 (Muchao Zhang)
-*[Google](https://zhangmuchao.blogspot.com) | [Github](https://github.com/ZhangMuchao) | [Instituto de Telecomunicações](https://www.it.pt/Members/Index/40316)  *  
+# Muchao Zhang
+
+<p align="center"> <a href="[https://zhangmuchao.blogspot.com](https://zhangmuchao.blogspot.com)">🌐 Blog</a> | <a href="[https://github.com/ZhangMuchao](https://github.com/ZhangMuchao)">💻 GitHub</a> | <a href="[https://www.it.pt/Members/Index/40316](https://www.it.pt/Members/Index/40316)">🔬 IT Profile</a> | <a href="[https://scholar.google.com/citations?user=xytWH4EAAAAJ&hl=en](https://scholar.google.com/citations?user=xytWH4EAAAAJ&hl=en)">🎓 Google Scholar</a> </p>
+
+---
+
+## 🔬 Research Experience
+
+**PhD Researcher** | *Instituto de Telecomunicações, Lisbon, Portugal* `Sep 2023 – Present`
+
+* **Scientific Area:** Basic Sciences and Enabling Technologies
+* **Group:** Instrumentation and Measurement - Lx
 
 ---
 
 ## 🎓 Education
-- **Ph.D. in Electrical and Computer Engineering**  
-   Instituto Superior Técnico, Universidade de Lisboa，Lisboa，Portugal *(2023 – Now)* 
-  - Research Interests: Ultrasoinc guided waves, Non-destructive testing and evaluation, Structural health monitoring.  
-  - Supervisor: [Professor Helena Ramos](https://www.it.pt/Members/Index/478)
 
-- **M.Sc. in Mechanical Engineering**   
-  Sichuan University，Chengdu，China *(2020 – 2023)*  
-  - Thesis: Radio Frequency Identification Sensing for Pipeline Structural Health Monitoring
-  - Supervisor: [伍剑波教授](https://msec.scu.edu.cn/info/1121/4394.htm)
+### **Ph.D. in Electrical and Computer Engineering**
 
-- **B.Eng. in Mechanical Engineering**  
-  Sichuan University，Chengdu，China *(2016 – 2020)*   
-  - Thesis: Passive and Wireless Strain Monitoring using Radio Frequency Identification
-  - Supervisor: [伍剑波教授](https://msec.scu.edu.cn/info/1121/4394.htm)
+​**Instituto Superior Técnico, Universidade de Lisboa**​, Portugal | `Sep 2023 – Present`
+
+* **Research Interests:** Ultrasonic guided waves, Non-destructive testing and evaluation (NDT&E), Structural health monitoring (SHM).
+* **Supervisor:** [Professor Helena Ramos](https://www.it.pt/Members/Index/478)
+
+### **M.Sc. in Mechanical Engineering**
+
+​**Sichuan University**​, Chengdu, China | `Sep 2020 – Jul 2023`
+
+* **Thesis:** Radio Frequency Identification (RFID) Sensing for Pipeline Structural Health Monitoring
+* **Supervisor:** [Prof. Jianbo Wu (伍剑波教授)](https://msec.scu.edu.cn/info/1121/4394.htm)
+
+### **B.Eng. in Mechanical Engineering**
+
+​**Sichuan University**​, Chengdu, China | `Sep 2016 – Jul 2020`
+
+* **Thesis:** Passive and Wireless Strain Monitoring using Radio Frequency Identification
+* **Supervisor:** [Prof. Jianbo Wu (伍剑波教授)](https://msec.scu.edu.cn/info/1121/4394.htm)
 
 ---
+
+
+
 <!--
 ## 📄 Publications
 1. Barzegar, M., Zhang, M., & Ramos, H. G. *Damage imaging using 2D teager-kaiser operator for early-time ultrasonic guided wavefields*. **NDT & E International**, vol. 156, p. 103485, 2025.  
@@ -46,6 +66,7 @@ order: 4
 
 ---
 -->
+
 <!--
 ## 💻 项目经验
 - **开源工具包：KG-NLP** *(GitHub Stars: 2.5k+)*  
