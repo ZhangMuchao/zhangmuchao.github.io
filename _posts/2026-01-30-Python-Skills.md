@@ -122,3 +122,8 @@ NVIDIA GeForce RTX 5070
 ### Matlab and Python
 
 #### index and dimensions
+
+### Pycharm
+
+#### Project
+新建工程后如果该工程创建的虚拟环境需要给其他工程使用，需要取消勾选将环境与该项目关联。
