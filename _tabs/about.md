@@ -6,13 +6,6 @@ order: 4
 
 # 张目超
 
-**联系方式**
-muchao.zhang@tecnico.ulisboa.pt | (+86) 13258261996
-https://www.it.pt/Members/Index/40316
-山东省聊城市
-
----
-
 ## 个人简介
 我是里斯本大学高等技术学院（Instituto Superior Técnico, University of Lisbon）电气与计算机工程专业博士研究生，同时在葡萄牙电信研究院仪器与测量研究组开展科研工作，导师为Helena Ramos教授。
 硕士期间在四川大学智能感知与检测机器人实验室SMaRT从事基于射频识别传感的结构健康监测研究，导师为伍剑波教授。
@@ -112,5 +105,4 @@ https://www.it.pt/Members/Index/40316
 - **工程软件与仿真** COMSOL Multiphysics, HFSS, SolidWorks, AutoCAD, Altium Designer有限元分析(FEA)、电磁仿真、结构健康监测
 - **嵌入式系统** ESP32, Arduino, MicroPython, RFID标签/读写器固件
 
----
 *(最近更新: 2026年7月3日)*
