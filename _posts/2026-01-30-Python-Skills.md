@@ -127,3 +127,69 @@ NVIDIA GeForce RTX 5070
 
 #### Project
 新建工程后如果该工程创建的虚拟环境需要给其他工程使用，需要取消勾选将环境与该项目关联。
+
+
+### Machine Learning
+
+#### Train loss vs Validation loss
+
+During the training process, the variation/gap between "train loss" and "val loss" is an important indicator for judging the model's fitting status and generalization ability.
+
+1. Both losses decrease with a small gap (Ideal)
+
+Meaning: The model is learning patterns from the training data while generalizing well to unseen validation data.
+
+Indicates: Normal training; model capacity matches data complexity.
+
+2. Train loss is much lower than val loss (Large gap)
+This is the most common scenario requiring attention. It can be further divided into:
+
+a. Overfitting
+
+Pattern: Train loss continues to drop (sometimes near zero), while val loss plateaus or increases after a certain point.
+
+Meaning: The model memorizes noise and details from the training data, failing to generalize.
+
+Possible reasons:
+
+* Model too complex (too many parameters)
+* Insufficient or non-diverse training data
+* Too many training epochs (early stopping not applied)
+* Insufficient regularization (e.g., dropout, weight decay)
+
+
+b. Data distribution mismatch
+
+Pattern: From the start of training, val loss is significantly higher than train loss.
+
+Meaning: Training and validation sets may come from different distributions (e.g., non-random split, data leakage, or inconsistent preprocessing).
+
+3. Both losses are high with a small gap
+
+Meaning: The model is underfitting.
+
+Indicates: The model fails to learn the underlying patterns in the training data.
+
+Possible reasons:
+
+* Model too simple
+* Insufficient training (low learning rate, too few epochs)
+* Poor feature engineering
+
+
+4. Train loss is higher than val loss (Uncommon)
+Meaning: Often indicates that the validation set is easier, or the training data contains more noise/outliers.
+
+Alternatively: Regularization may be too strong, limiting training performance but improving generalization.
+
+5. Both losses decrease, but the gap widens over time
+Meaning: Early signs of overfitting.
+
+Response: Consider early stopping, increasing regularization, or adding data augmentation.
+
+**How to Use This Gap to Guide Training**
+
+* Focus on the trend of the gap, not just absolute values.
+* Use early stopping: stop training when val loss stops improving or starts increasing.
+* Adjust model capacity: reduce complexity or increase regularization when overfitting; increase capacity when underfitting.
+* Check data quality: ensure train/val sets come from the same distribution and there is no data leakage.
