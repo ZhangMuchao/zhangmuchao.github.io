@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
+<!--
 # 张目超
 
 
@@ -57,3 +57,4 @@ order: 4
 5. Mohsen Barzegar, Diogo Mourinho, 张目超, Francisco Alegria, Helena Ramos. "Data-driven damage localization in CFRP plate using a network of guided wave signals," Proc. 2026 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Nancy, France, May 2026.
 6. Mohsen Barzegar, Sahar Moradi Cherati, 张目超, Dario Pasadas, Artur Ribeiro, Helena Ramos. "Enhanced disbond detection in CFRP joints using autoencoders for guided wave signal," Proc. 2025 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), pp.1-6, May 2025.
 
+-->
